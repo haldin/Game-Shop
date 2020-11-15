@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h3 class="my-4">Game-Shop</h3>
+      <li routerLink="products" class="list-group-item list-group-item-action list-group-item-primary " data-toggle="list" style="cursor: pointer;">All Games</li>
+      <div class="list-group" *ngFor="let category of categoryList">
+        <li routerLink="products/category/{{category.id}}" routerLinkActive="router-link-active" class="list-group-item list .active" style="cursor: pointer;">{{category.name}}</li>
+      </div>
+    </div>
+  </div>
+</div>
+

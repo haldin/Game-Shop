@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "name": "Shadow of the Tomb RIder",
+      "categoryId": 1,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61Ys%2BMRFj2L._SL1000_.jpg",
+      "price": 120,
+      "id": 2
+    },
+    {
+      "name": "Jumanji",
+      "categoryId": 1,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81rVy6-5d%2BL._SL1500_.jpg",
+      "price": 100,
+      "id": 3
+    },
+    {
+      "name": "Spider-man",
+      "categoryId": 1,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81d6JU6g1pL._SL1500_.jpg",
+      "price": 90,
+      "id": 4
+    },
+    {
+      "name": "NBA 2K21",
+      "categoryId": 2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Im4jQDA4L._AC_SL1500_.jpg",
+      "price": 150,
+      "id": 6
+    },
+    {
+      "name": "FIFA 21",
+      "categoryId": 2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81mBk8%2BsxrL._AC_SL1500_.jpg",
+      "price": 150,
+      "id": 7
+    },
+    {
+      "name": "PES 2021 ",
+      "categoryId": 2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91aM00v2IGL._AC_SL1500_.jpg",
+      "price": 149,
+      "id": 8
+    },
+    {
+      "name": "DRIVECLUB",
+      "categoryId": 3,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91I8MKC6xQL._AC_SL1500_.jpg",
+      "price": 39,
+      "id": 9
+    },
+    {
+      "name": "Need for Speed",
+      "categoryId": 3,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51HE%2BcP8idL._AC_.jpg",
+      "price": 79,
+      "id": 10
+    },
+    {
+      "name": "Need for Speed - Payback",
+      "categoryId": 3,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81mE8WEnsAL._SL1500_.jpg",
+      "price": 120,
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Aldin",
+      "lastName": "Hadžihasanović",
+      "email": "aldin.hadzihasanovic@hotmail.com",
+      "password": "123",
+      "id": 1,
+      "login": {}
+    },
+    {
+      "firstName": "Alca",
+      "lastName": "Alca",
+      "email": "mulinjo2020@hotmail.com",
+      "password": "321",
+      "id": 2,
+      "login": {}
+    },
+    {
+      "firstName": "Aldin",
+      "lastName": "Hadžihasanović",
+      "email": "aldin.hadzihasanovic@hotmail.com",
+      "password": "Aldin Hadžihasanović",
+      "id": 3
+    }
+  ],
+  "login": [],
+  "category": [
+    {
+      "id": 1,
+      "name": "RPG"
+    },
+    {
+      "id": 2,
+      "name": "Sport"
+    },
+    {
+      "id": 3,
+      "name": "Racing"
+    }
+  ]
+}

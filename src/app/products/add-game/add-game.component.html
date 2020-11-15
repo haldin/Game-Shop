@@ -1,0 +1,51 @@
+<form (submit)="addNewGame(addGame)" #addGame="ngForm">
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer01">First name</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Name"
+        required
+        name="gameName"
+        ngModel>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServer02">Category Id</label>
+      <input
+        type="number"
+        class="form-control"
+        placeholder="Category Id"
+        required
+        name="categoryId"
+        ngModel>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServerUsername">Image</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Image"
+          name="image"
+          ngModel
+          required>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">Price</label>
+      <input
+      type="number"
+      class="form-control"
+      placeholder="Price"
+      name="price"
+      ngModel
+      required>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>

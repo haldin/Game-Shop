@@ -1,0 +1,62 @@
+<form (submit)="updateGame(addGame)" #addGame="ngForm">
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer01">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Name"
+        required
+        name="name"
+        ngModel
+        [(ngModel)]="productDetails.name">
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServer02">Category Id</label>
+      <input
+        type="number"
+        class="form-control"
+        placeholder="Category Id"
+        required
+        name="categoryId"
+        ngModel
+        [(ngModel)]="productDetails.categoryId">
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServerUsername">Image</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Image"
+          name="image"
+          ngModel
+          [(ngModel)]="productDetails.image"
+          required>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">Price</label>
+      <input
+      type="number"
+      class="form-control"
+      placeholder="Price"
+      name="price"
+      ngModel
+      [(ngModel)]="productDetails.price"
+      required>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Update</button>
+</form>
+
+<div class="alert alert-success mt-4" role="alert" *ngIf="updatedGame">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>You successfully updated a game!</p>
+  <button type="button" class="btn btn-success" (click)="backToProducts()">Back to Games</button>
+</div>
+
